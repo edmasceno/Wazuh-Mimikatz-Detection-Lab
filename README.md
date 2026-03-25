@@ -47,3 +47,7 @@ Aqui foi onde o lab ficou interessante. O SIEM não ficou quieto:
 Durante o dump, a VM do Windows 11 apresentou lentidão extrema e acabou travando. Isso aconteceu pela manipulação direta da memória do processo `lsass.exe`. 
 
 **Lição aprendida:** No SOC, um servidor que trava do nada ou apresenta lentidão súbita após um alerta de registro pode ser um indicativo de que um atacante está tentando (ou falhando) ao extrair credenciais. O monitoramento de comportamento (`Event ID 10` e `4624`) salvou o dia aqui.
+
+---
+
+Ainda em estudo.
